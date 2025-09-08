@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EVENT HANDLING IN JS, FORM VALIDATION AND INTERACTIVE ELEMENTS</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <!--inline event handler-->
+    <input type="text" id="=input1"
+    onfocus="This.This.style.background='brown';"
+    onblur=""This.style.background=";"
+    placeholder="click me i will change color">
+    
+    <p
+    onmouseover="This.style.color='red'; This.innerText='mouse has passed over me!';"
+    >This Text will change on mouse over.</p>
+
+<button onlick="alert('Button clicked')">click me 1</button>
+    <button id="mybutton">click me 2</button>
+    <button id="otherbutton">click me 3</button>
+    <P id="output">Waiting</P>
+
+    <p 
+    onmouseover="this.style.color='red'"
+    onmouseover="this.style.color='red'">
+    Hover over This--
+    </p>
+    
+    <input type="text"id="inputBox" placeholder="This is Required----">
+
+    <!--Drag and Drop-->
+    <div id="dropzone">DROP HERE</div>
+    <img src="images/1.jpg" alt="drggable image"
+    id ="dragitem"
+    drggable="true">
+
+    <!---carousel-->
+    <div id="carousel">
+
+        <button onclick="previous image()">previous</button>
+        <button onclick="Next image()">Next</button>
+    </div>
+    <!--form validation--->
+    <form>
+        <input type="text" id="username", placeholder="Enter your Name"><br />
+        <input type="email" placeholder="Enter Your Email"><br />
+        <button type="submit">submit</button>
+    </form>
+
+    
+    <script src="scripts/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,21 @@
+body.dark theme{
+    background: #222
+    color:white 
+}
+
+#dropzone{
+    width: 200px;
+    height: 200px;
+    display: flex;
+    line-height: 200px;
+    text-align: center;
+    border: 2px dashed #ccc;
+    justify-content:center;
+    align-content:center;
+    margin-bottom: 20px;
+}
+
+img{
+width: 100px;
+height: 100px;
+}
